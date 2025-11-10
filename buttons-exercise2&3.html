@@ -1,14 +1,17 @@
 <style>
   .subscribe-button {
-    background-color: rgb(200, 0, 0);
+    background-color: rgb(204, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     transition: opacity 0.15s;
+    vertical-align: top;
   }
 
   .subscribe-button:hover {
@@ -25,8 +28,10 @@
     border-style: solid;
     border-width: 1px;
     color: rgb(41, 118, 211);
-    height: 36px;
-    width: 62px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 2px;
     cursor: pointer;
     font-size: 15px;
@@ -45,16 +50,19 @@
   }
 
   .tweet-button {
-    background-color: rgb(0, 119, 255);
+    background-color: rgb(29, 155, 240);
     color: white;
     border: none;
-    height: 36px;
-    width: 74px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
     transition: box-shadow 0.15s;
+    vertical-align: top;
   }
 
   .tweet-button:hover {
@@ -65,11 +73,13 @@
     background-color: black;
     border: none;
     color: white;
-    height: 42px;
-    width: 115px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
     cursor: pointer;
-    margin-left: 8px;
     transition: opacity 0.2s;
+    margin-top: 32px;
   }
 
   .request-button:hover {
@@ -78,8 +88,10 @@
 
   .add-to-cart-button {
     background-color: rgb(255, 216, 20);
-    height: 42px;
-    width: 190px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
     border: none;
     border-radius: 22px;
     cursor: pointer;
@@ -96,14 +108,18 @@
     background-color: rgb(46, 164, 79);
     border: none;
     border-radius: 8px;
-    height: 47px;
-    width: 120px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
     cursor: pointer;
     margin-left: 8px;
     color: white;
     font-size: 16px;
     font-weight: bold;
     transition: box-shadow 0.2s;
+    vertical-align: top;
+    margin-top: 32px;
   }
 
   .sign-up-button:hover {
@@ -114,13 +130,17 @@
     background-color: rgb(121, 82, 179);
     border: none;
     border-radius: 4px;
-    height: 45px;
-    width: 110px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
     color: white;
     cursor: pointer;
     margin-left: 8px;
     font-weight: bold;
     transition: background-color 0.2s;
+    vertical-align: top;
+    margin-top: 32px;
   }
 
   .get-started-button:hover {
@@ -133,13 +153,17 @@
     border-style: solid;
     border-radius: 4px;
     color: rgb(108, 117, 125);
-    height: 45px;
-    width: 110px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: 8px;
     cursor: pointer;
     font-weight: bold;
     border-width: 1.5px;
-    transition: background-color 0.2s, color: 0.2s;
+    transition: background-color 0.2s, color 0.2s;
+    vertical-align: top;
+    margin-top: 32px;
   }
 
   .download-button:hover {
@@ -152,13 +176,15 @@
     color: white;
     font-weight: bold;
     border: none;
-    height: 55px;
-    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 30px;
     cursor: pointer;
-    margin-left: 8px;
-    font-size: 20px;
+    font-size: 16px;
     transition: background-color 0.2s;
+    margin-top: 32px;
   }
 
   .apply-on-company-button:hover {
@@ -170,15 +196,18 @@
     border-color: rgb(10, 102, 194);
     border-style: solid;
     color: rgb(10, 102, 194);
-    height: 55px;
-    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     cursor: pointer;
     font-weight: bold;
     margin-left: 8px;
-    font-size: 22px;
+    font-size: 16px;
     border-radius: 30px;
     border-width: 2px;
     transition: background-color 0.15s, border-width 0.15s;
+
   }
 
   .save-button:hover {
@@ -199,30 +228,32 @@
   Tweet
 </button>
 
-<button class="request-button">
-  Request now
-</button>
+<div : style="display : inline-block">
+  <button class="request-button">
+    Request now
+  </button>
 
-<button class="add-to-cart-button">
-  Add to Cart
-</button>
+  <button class="add-to-cart-button">
+    Add to Cart
+  </button>
 
-<button class="sign-up-button">
-  Sign up
-</button>
+  <button class="sign-up-button">
+    Sign up
+  </button>
 
-<button class="get-started-button">
-  Get started
-</button>
+  <button class="get-started-button">
+    Get started
+  </button>
 
-<button class="download-button">
-  Download
-</button>
+  <button class="download-button">
+    Download
+  </button>
 
-<button class="apply-on-company-button">
-  Apply on company website
-</button>
+  <button class="apply-on-company-button">
+    Apply on company website
+  </button>
 
-<button class="save-button">
-  Save
-</button>
+  <button class="save-button">
+    Save
+  </button>
+</div>
