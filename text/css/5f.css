@@ -1,0 +1,31 @@
+ p {
+   font-family: Arial;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+ .price {
+   font-size: 40px;
+   width: 300px;
+
+ }
+
+ .usd {
+   color: gray;
+   font-size: 30px;
+ }
+
+ .green {
+   color: green;
+   font-size: 20px;
+ }
+
+ .after-hours {
+   margin-top: 16px;
+   color: gray;
+ }
+
+ .red {
+   color: red;
+   font-size: 20px;
+ }
