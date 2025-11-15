@@ -1,0 +1,37 @@
+input {
+
+  display: block;
+  margin-top: 5px;
+}
+
+.survey {
+  width: 200px;
+  display: inline-block;
+}
+
+button {
+  vertical-align: center;
+  display: inline-block;
+}
+
+.search-shadow {
+  margin-top: 30px;
+  border: none;
+  box-shadow: 0px 1px 8px rgb(187, 186, 186);
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 500px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-left: 100px;
+  text-align: left;
+
+}
+
+.Google {
+  width: 300px;
+  display: block;
+  margin-left: 225px;
+}

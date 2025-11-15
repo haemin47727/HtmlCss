@@ -1,0 +1,97 @@
+.search {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border-color: rgb(191, 190, 190);
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.search-shadow {
+  margin-top: 30px;
+  border: none;
+  box-shadow: 0px 1px 8px rgb(187, 186, 186);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.email {
+  font-family: Arial;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.email-box {
+  margin-top: 5px;
+  border-width: 2px;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.privacy-policy {
+  font-family: Arial;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.agree-button {
+  margin-top: 10px;
+  background-color: rgb(38, 84, 251);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+
+.happening {
+  vertical-align: middle;
+  border: none;
+  font-size: 25px;
+  padding-left: 10px;
+  width: 300px;
+}
+
+.tweet {
+  background-color: rgb(29 155 240);
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+}
