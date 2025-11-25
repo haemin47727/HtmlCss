@@ -1,0 +1,1 @@
+# This is my first HTML/CSS learning exercises and project before I transition into learning Javascript. https://haemin47727.github.io/HtmlCss/
